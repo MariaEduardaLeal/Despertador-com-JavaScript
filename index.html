@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Despertador</title>
+</head>
+
+<body>
+    <div class="container">
+        <center>
+            <div class="alarm-container">
+                <img src="assets/alarm-1673577_1280.png" class="alarm-img" alt="">
+                <h1>00:00:00 PM</h1>
+                <div class="content">
+                    <div class="alarm-controls">
+                        <select id="hour">
+                            <option value="Hour" selected disabled hidden> Horas </option>
+                        </select>
+                    </div>
+
+                    <div class="alarm-controls">
+                        <select id="minute">
+                            <option value="Minute" selected disabled hidden> Minutos </option>
+                        </select>
+                    </div>
+
+                    <div class="alarm-controls">
+                        <select id="ampm">
+                            <option value="AM/PM" selected disabled hidden> AM/PM </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="dates">
+                    <label for="start-date">Data:</label>
+                    <input type="date" id="start-date" name="start-date">
+                    <br><br>
+                    <button id="set-alarm">Definir Alarme</button>
+                </div>
+            </div>
+        </center>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
+
